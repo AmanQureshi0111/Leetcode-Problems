@@ -1,9 +1,12 @@
 /*    Leetcode link: https://leetcode.com/problems/maximum-score-after-splitting-a-string/description/
 */
+#include <iostream>
+#include <string>
+using namespace std;
 
 class Solution {
 public:
-    int maxScore(string s) {
+    int maxScore(string &s) {
         int n=s.length();
         int count_ones=0;
         for(char &ch:s){
