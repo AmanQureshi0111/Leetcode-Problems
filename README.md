@@ -1,2 +1,2 @@
-# Leetcode-POTD
+# Leetcode-Problems
 Daily Challenges
